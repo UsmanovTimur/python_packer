@@ -34,12 +34,12 @@ Golang: 1.14
 
 ## Work algorithm:
 1) Compile your python project
-`` `python -m compileall .```
+```python -m compileall .```
 2) Run the file transfer script
-`` `go run cmd / main.go --project.path = /path/to/your/project```
+```go run cmd / main.go --project.path = /path/to/your/project```
 The script copies all files, and all .py files are replaced by compiled .pyc files
 3) Activate the virtual environment and run the compiled project
-`` `sourse {PYTHON_VE} && cd out_folder && python your_script.pyc```
+```sourse {PYTHON_VE} && cd out_folder && python your_script.pyc```
 
 ## Flags:
 project.path - path to the project (absolute or relative). Default == "."
