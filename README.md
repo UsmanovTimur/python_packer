@@ -15,6 +15,10 @@ Golang: 1.14
 ```go run cmd/main.go --project.path=/path/to/your/project```
 Скрипт скопирует все файлы, а все .py файлы заменит скомпилированными .pyc файлами
 
+##Флаги:
+project.path - путь до проекта(абсолютный или относительный). По умолчанию == "."
+out.path - путь куда сохраняется результат. По умолчанию = "./out_folder"
+
 
 # Python Packer
 The service is designed to convert open python code to semi-closed or encrypted to protect the code.
@@ -32,3 +36,8 @@ Golang: 1.14
 2) Run the file transfer script
 `` `go run cmd / main.go --project.path = /path/to/your/project```
 The script copies all files, and all .py files are replaced by compiled .pyc files
+
+
+## Flags:
+project.path - path to the project (absolute or relative). Default == "."
+out.path - the path where the result is present. Default = "./out_folder"
