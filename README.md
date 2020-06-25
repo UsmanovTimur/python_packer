@@ -2,8 +2,8 @@
 Сервис предназначен для преобразования открытого кода python в полузакрытый или зашифрованный для защиты кода.
 
 ##Требования:
-ОС: Linux(Debian/Ubuntu)
-Golang: 1.14
+- ОС: Linux(Debian/Ubuntu)
+- Golang: 1.14
 
 ## Сборка и компиляция
 ```make```
@@ -18,16 +18,16 @@ Golang: 1.14
 ```sourse {PYTHON_VE} && cd out_folder && python your_script.pyc```
 
 ##Флаги:
-project.path - путь до проекта(абсолютный или относительный). По умолчанию == "."
-out.path - путь куда сохраняется результат. По умолчанию = "./out_folder"
+- project.path - путь до проекта(абсолютный или относительный). По умолчанию == "."
+- out.path - путь куда сохраняется результат. По умолчанию = "./out_folder"
 
 
 # Python Packer
 The service is designed to convert open python code to semi-closed or encrypted to protect the code.
 
 ## Requirements:
-OS: Linux (Debian / Ubuntu)
-Golang: 1.14
+- OS: Linux (Debian / Ubuntu)
+- Golang: 1.14
 
 ## Build and compile
 ```make```
@@ -42,5 +42,5 @@ The script copies all files, and all .py files are replaced by compiled .pyc fil
 ```sourse {PYTHON_VE} && cd out_folder && python your_script.pyc```
 
 ## Flags:
-project.path - path to the project (absolute or relative). Default == "."
-out.path - the path where the result is present. Default = "./out_folder"
+- project.path - path to the project (absolute or relative). Default == "."
+- out.path - the path where the result is present. Default = "./out_folder"
