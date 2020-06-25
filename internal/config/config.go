@@ -9,6 +9,7 @@ type ConfigStruct struct {
 
 var GlobalConfig ConfigStruct
 
+//Настройка проекта
 func Config() {
 	projectPath := flag.String("project.path", ".", "Путь до проекта")
 	outPath := flag.String("out.path", "out_folder", "Путь до итогового проекта")

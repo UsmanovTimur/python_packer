@@ -12,7 +12,7 @@ type ParseFolder struct {
 	FileName     string
 }
 
-//
+// Разложение пути до файла на составные части
 func CreateFolderStruct(folders []string) []ParseFolder {
 	outArray := []ParseFolder{}
 	for i := 0; i < len(folders); i++ {

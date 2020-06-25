@@ -35,6 +35,7 @@ func CreateFolderTree(path string) (*Folder, error) {
 	return &outFolder, err
 }
 
+//Вывод всех файлов в виде строкового массива
 func (f *Folder) FilesArray() []string {
 	outArray := []string{}
 	for i := 0; i < len(f.Files); i++ {

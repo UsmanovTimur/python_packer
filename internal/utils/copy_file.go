@@ -6,6 +6,7 @@ import (
 	"os"
 )
 
+// Копирование папки со всем содержимым
 func CopyFile(pathFrom, pathTO string) {
 	from, err := os.Open(pathFrom)
 	if err != nil {
