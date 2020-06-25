@@ -14,6 +14,8 @@ Golang: 1.14
 2) Запустите скрипт по переносу файлов
 ```go run cmd/main.go --project.path=/path/to/your/project```
 Скрипт скопирует все файлы, а все .py файлы заменит скомпилированными .pyc файлами
+3) Активируем виртуальное окружение и запускаем скомпилированный проект
+```sourse {PYTHON_VE} && cd out_folder && python your_script.pyc```
 
 ##Флаги:
 project.path - путь до проекта(абсолютный или относительный). По умолчанию == "."
@@ -36,7 +38,8 @@ Golang: 1.14
 2) Run the file transfer script
 `` `go run cmd / main.go --project.path = /path/to/your/project```
 The script copies all files, and all .py files are replaced by compiled .pyc files
-
+3) Activate the virtual environment and run the compiled project
+`` `sourse {PYTHON_VE} && cd out_folder && python your_script.pyc```
 
 ## Flags:
 project.path - path to the project (absolute or relative). Default == "."
